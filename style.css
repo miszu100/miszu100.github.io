@@ -1,0 +1,50 @@
+
+
+.row {
+	justify-content: center;
+}
+
+#message {
+	font-size: 6vw;
+	color: black;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 30px;
+	margin: 20px;
+	padding: 5px 20px 5px 20px;
+	font-family: 'Gotu', sans-serif;
+	white-space: nowrap; /*forcing text to stay in one line*/
+}
+
+.myButtonArea {
+	margin-top: calc(22vw - 50px);
+}
+
+.myButton {
+	font-size: 2.5vw;
+	padding: 5px 15px 5px 15px;
+	border-color: rgb(255, 99, 71);
+	border-radius: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	background-color: rgb(255, 99, 71);
+
+	transition: 1s ease-out;
+}
+
+.myButton:hover {
+	background-color: black;
+	border-color: black;
+	padding: 7px 60px 7px 60px;
+	font-size: 2.7vw;
+	margin-bottom: 15px;
+}
+
+.line {
+	margin: 10px;
+	height: 0.5vw;
+	background: rgb(255,99,71);
+	background: linear-gradient(59deg, rgba(255,99,71,0.3) 0%, rgba(181,181,181,0.5) 20%, rgba(255, 202, 249,0.7) 50%, rgba(181,181,181,0.5) 80%, rgba(97, 168, 110,0.3) 100%); 
+	border-radius: 5px;
+}
